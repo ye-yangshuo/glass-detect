@@ -2,9 +2,6 @@ import cv2
 import time
 import os
 
-import cv2
-import time
-
 def take_snapshots(folder_path):
     """
     打开摄像头，每隔2秒拍摄一张照片，并将其保存在指定的文件夹中。
