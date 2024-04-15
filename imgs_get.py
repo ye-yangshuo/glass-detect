@@ -16,7 +16,7 @@ def take_snapshots(folder_path):
         os.makedirs(folder_path)
     
     # 打开摄像头
-    cap = cv2.VideoCapture(0)
+    cap = cv2.VideoCapture(1)
     
     snapshot_count = 0
     while True:
